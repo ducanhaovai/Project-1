@@ -16,10 +16,10 @@ function TodoList({ todoList }) {
             {todoList.map(todo => (
                 <li key={todo.id}>{todo.title}</li>
 
-                
+
             ))}
-                </ul>
-            );
+        </ul>
+    );
 }
 
-            export default TodoList;
+export default TodoList;
